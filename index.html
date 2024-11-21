@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>house property</title>
+    <!-- Feather Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons"></script>
+    <!-- data aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- css aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- My Style css -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <!-- Navbar start-->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Syafiq<span>property</span>.</a>
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="profil.html">Profil</a>
+            <a href="kontak.html">Kontak</a>
+        </div>
+        <div class="navbar-extra">
+            <a href="#search-section" title="go to home" id="search"> <i data-feather="search"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+
+    <!-- hero section start -->
+    <section class="hero" id=home>
+        <main class="content">
+            <div data-aos="fade-right" data-aos-duration="700">
+                <h1>Investment With Syafiq <span>Property</span></h1>
+                <p>Desain Minimalis, Lingkungan Asri, Kehidupan Modern</p>
+                <a href="#profill" class="cta">lihat Sekarang</a>
+            </div>
+        </main>
+    </section>
+
+    <div class="circle">
+        DP 0%
+    </div>
+
+    <!-- hero section end -->
+
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="bgr5.jpg" alt="Slide 1">
+        </div>
+        <div class="slide fade">
+            <img src="perum2.jpg" alt="Slide 2">
+        </div>
+        <div class="slide fade">
+            <img src="perum3.jpg" alt="Slide 3">
+        </div>
+
+    </div>
+
+
+    <div class="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- search start -->
+    <div class="respon">
+        <div class="container">
+            <header class="header">
+                <div class="logo">
+                </div>
+            </header>
+
+            <div class="main-content" id="search-section">
+                <div class="spacer"></div>
+                <div class="search-box">
+                    <div class="tabs">
+                        <button class="tab active" onclick="toggleTab('Dijual')">Rumah</button>
+                        <button class="tab" onclick="toggleTab('Disewa')">Tanah</button>
+                    </div>
+                    <div class="search-input">
+                        <input type="text" id="searchinput" placeholder="Cari lokasi rumah atau tanah" >
+                        <button class="search-btn" type="submit">Cari</button>
+                        </div>
+
+                </div>
+                <div class="download-buttons">
+                    <a href="https://www.apple.com/app-store/" target="_blank">
+                        <img class="appstore-btn" src="gogle (1).png" alt="appstore">
+                        <a href="https://play.google.com/" target="_blank">
+                            <img class="playstore-btn" src="gogle (2).png" alt="playstore">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- search end -->
+
+    <!-- service start -->
+    <section id="services" class="services">
+        <h1 style="font-size: 30px;">Facilites</h1>
+        <p>Menghadirkan layanan dan fasilitas yang dapat <br> meningkatkan kenyamanan seluruh penghuni adalah prioritas utama kami.</p>
+        <div class="services-container">
+            <div class="service-item">
+                <i class="icon"><img src="cctvv.png" class="cctv"></i>
+                <h3>CCTV 24 Jam</h3>
+                <p>Pengamanan CCTV 24 jam untuk memastikan tiap sudut dapat terpantu</p>
+            </div>
+            <div class="service-item">
+                <i class="icon"><img src="ccctv.webp" class="cctv"></i>
+                <h3>24 Hour Security</h3>
+                <p>Keamanan semakin terjamin dengan pemantauan selama 24 jamm penuh</p>
+            </div>
+            <div class="service-item">
+                <i class="icon"><img src="swimming1.jpg" class="cctv"></i>
+                <h3>Swimming Pool</h3>
+                <p>Mempunyai fasilitas kolam renang untuk bersantai bersama keluarga</p>
+            </div>
+            <div class="service-item">
+                <i class="icon"><img src="iconhouse.jpg" class="cctv"></i>
+                <h3>Underground Utilites</h3>
+                <p>Tidak ada kabel listrik atau tiang di luar rumah.Semua tertata rapi di dalam tanah</p>
+            </div>
+        </div>
+    </section>
+    <!-- service end -->
+
+    <div class="house-container">
+        <div class="house-card" id="profill">
+            <img src="perum1.jpg" alt="Rumah 1">
+            <div class="house-info">
+                <h3>Rumah Mewah</h3>
+                <p>Lokasi: Jakarta Selatan</p>
+                <p>Harga: Rp 1.500.000.000</p>
+                <p>Spesifikasi: 6 Kamar Tidur, 3 Kamar Mandi</p>
+                <a href="profil.html" class="bttn">lihat lebih lanjut</a>
+            </div>
+        </div>
+    
+
+        <div class="house-card">
+            <img src="perum2.jpg" alt="Rumah 2">
+            <div class="house-info">
+                <h3>Rumah Minimalis</h3>
+                <p>Lokasi: jakarta timur</p>
+                <p>Harga: Rp 900.000.000</p>
+                <p>Spesifikasi: 4 Kamar Tidur, 2 Kamar Mandi</p>
+
+                <a href="profil.html" class="bttn">lihat lebih lanjut</a>
+            </div>
+        </div>
+
+        <div class="house-card">
+            <img src="perum3.jpg" alt="Rumah 3">
+            <div class="house-info">
+                <h3>Rumah Modern</h3>
+                <p>Lokasi: Jakarta timur</p>
+                <p>Harga: Rp 1.200.000.000</p>
+                <p>Spesifikasi: 3 Kamar Tidur, 2 Kamar Mandi</p>
+                <a href="profil.html" class="bttn">lihat lebih lanjut</a>
+            </div>
+        </div>
+
+        <div class="house-card">
+            <img src="interior2.jpg" alt="Rumah 4">
+            <div class="house-info">
+                <h3>Rumah Elegan</h3>
+                <p>Lokasi: jakarta barat</p>
+                <p>Harga: Rp 2.000.000.000</p>
+                <p>Spesifikasi: 6 Kamar Tidur, 3 Kamar Mandi</p>
+                <a href="profil.html" class="bttn">lihat lebih lanjut</a>
+            </div>
+        </div>
+        <div class="house-card">
+            <img src="tanah1.jpg" alt="Rumah 3">
+            <div class="house-info">
+                <h3>Tanah</h3>
+                <p>Lokasi: Depok</p>
+                <p>Harga: Rp 1.000.000.000</p>
+                <p>Spesifikasi: luas tanah = 1 hektar</p>
+                <a href="profil.html" class="bttn">lihat lebih lanjut</a>
+            </div>
+        </div>
+        <div class="house-card">
+            <img src="tanah2.webp" alt="Rumah 3">
+            <div class="house-info">
+                <h3>Tanah</h3>
+                <p>Lokasi: Bogor</p>
+                <p>Harga: Rp 1.800.000.000</p>
+                <p>Spesifikasi: luas tanah = 2,2 hektar</p>
+                <a href="profil.html" class="bttn">lihat lebih lanjut</a>
+            </div>
+        </div>
+        <div class="house-card">
+            <img src="tanah3.jpg" alt="Rumah 3">
+            <div class="house-info">
+                <h3>Tanah</h3>
+                <p>Lokasi: kab bogor</p>
+                <p>Harga: Rp 950.000.000</p>
+                <p>Spesifikasi: luas tanah = 0.8 hektar</p>
+                <a href="profil.html" class="bttn">lihat lebih lanjut</a>
+            </div>
+        </div>
+        <div class="house-card">
+            <img src="tanah4.jpg" alt="Rumah 3">
+            <div class="house-info">
+                <h3>Tanah</h3>
+                <p>Lokasi: Kota cirebon</p>
+                <p>Harga: Rp 2.200.000.000</p>
+                <p>Spesifikasi: luas tanah = 3 hektar</p>
+                <a href="profil.html" class="bttn">lihat lebih lanjut</a>
+            </div>
+        </div>
+        <div class="house-card">
+            <img src="bgr3.jpg" alt="Rumah 3">
+            <div class="house-info">
+                <h3>Perumahan</h3>
+                <p>Lokasi: Jakarta utara</p>
+                <p>Harga: Rp 1.200.000.000</p>
+                <p>Spesifikasi: 3 Kamar Tidur, 2 Kamar Mandi</p>
+                <a href="profil.html" class="bttn">lihat lebih lanjut</a>
+            </div>
+        </div>
+        <div class="house-card">
+            <img src="bgr5.jpg" alt="Rumah 3">
+            <div class="house-info">
+                <h3>Perumahan</h3>
+                <p>Lokasi: Jakarta selatan</p>
+                <p>Harga: Rp 2.200.000.000</p>
+                <p>Spesifikasi: 3 Kamar Tidur, 3 Kamar Mandi</p>
+                <a href="profil.html" class="bttn">lihat lebih lanjut</a>
+            </div>
+        </div>
+        <div class="house-card">
+            <img src="bgr6.jpg" alt="Rumah 3">
+            <div class="house-info">
+                <h3>Perumahan</h3>
+                <p>Lokasi: Kota cirebon</p>
+                <p>Harga: Rp 1.200.000.000</p>
+                <p>Spesifikasi: 7 Kamar Tidur, 4 Kamar Mandi</p>
+                <a href="profil.html" class="bttn">lihat lebih lanjut</a>
+            </div>
+        </div>
+        <div class="house-card">
+            <img src="bgr7.jpg" alt="Rumah 3">
+            <div class="house-info">
+                <h3>Perumahan</h3>
+                <p>Lokasi: Depok</p>
+                <p>Harga: Rp 1.800.000.000</p>
+                <p>Spesifikasi: 3 Kamar Tidur, 2 Kamar Mandi</p>
+                <a href="profil.html" class="bttn">lihat lebih lanjut</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer start -->
+    <div class="get-in-touch">
+
+        <p>Mari bertanya kepada admin kami agar menyesuaikan keinginan anda, kemitraan yang hebat dimulai dengan saling pengertian dan profesional untuk meraih kesuksesan..</p>
+        <hr>
+        <div class="icon-email">
+            <p>
+                </a> <span>hello@syafiqproperty.com</span></p>
+
+            <div class="address">
+                <span class="icon">📍</span>
+                <p>Jl. cipto, kota cirebon, Indonesia</p>
+            </div>
+        </div>
+        <h4>OUR SOCIAL MEDIA</h4>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/" target="_blank" id="instagram">
+                <i data-feather="instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" id="youtube">
+                <i data-feather="youtube"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" id="facebook">
+                <i data-feather="facebook"></i>
+            </a>
+
+            <a href="https://twitter.com/" target="_blank" id="twitter">
+                <i data-feather="twitter"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- footer end -->
+
+
+
+
+
+
+    <!-- logo wa -->
+    <a href="https://wa.me/6287877566677" class="whatsapp-float" target="_blank" title="Hubungi kami di WhatsApp">
+        <img src="iconwa.png" alt="WhatsApp Icon">
+    </a>
+
+    <!-- Feather Icons -->
+
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- My JS -->
+    <script src="script.js" defer></script>
+    <!-- data aos js -->
+    <script>
+        feather.replace();
+    </script>
+
+</body>
+
+</html>
